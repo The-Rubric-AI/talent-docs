@@ -1,5 +1,5 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
+  "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "Rubric AI Talent Portal",
   "logo": {
@@ -10,11 +10,7 @@
   "colors": {
     "primary": "#6d5ef6",
     "light": "#8b7ff7",
-    "dark": "#5a4dd4",
-    "anchors": {
-      "from": "#6d5ef6",
-      "to": "#8b7ff7"
-    }
+    "dark": "#5a4dd4"
   },
   "topbarLinks": [
     {
@@ -26,68 +22,70 @@
     "name": "Portal",
     "url": "https://talent.rubric.ai"
   },
-  "tabs": [
-    {
-      "name": "How To",
-      "url": "how-to"
-    },
-    {
-      "name": "Working with Rubric AI",
-      "url": "working"
-    },
-    {
-      "name": "Policies",
-      "url": "policies"
-    },
-    {
-      "name": "Support",
-      "url": "support"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Talent Portal",
-      "icon": "house",
-      "url": "https://talent.rubric.ai"
-    },
-    {
-      "name": "Contact Support",
-      "icon": "envelope",
-      "url": "mailto:support@rubric.ai"
-    }
-  ],
-  "navigation": [
-    {
-      "group": "Welcome",
-      "pages": ["introduction"]
-    },
-    {
-      "group": "How To",
-      "pages": [
-        "how-to/create-account",
-        "how-to/setup-profile",
-        "how-to/apply",
-        "how-to/payments",
-        "how-to/referrals"
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "How To",
+        "groups": [
+          {
+            "group": "How To",
+            "pages": [
+              "how-to/create-account",
+              "how-to/setup-profile",
+              "how-to/apply",
+              "how-to/payments",
+              "how-to/referrals"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Working with Rubric AI",
+        "groups": [
+          {
+            "group": "Working with Rubric AI",
+            "pages": [
+              "working/getting-started",
+              "working/onboarding",
+              "working/offboarding"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Policies",
+        "groups": [
+          {
+            "group": "Policies",
+            "pages": ["policies/overview"]
+          }
+        ]
+      },
+      {
+        "tab": "Support",
+        "groups": [
+          {
+            "group": "Support",
+            "pages": ["support/faq"]
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Talent Portal",
+          "icon": "house",
+          "url": "https://talent.rubric.ai"
+        },
+        {
+          "anchor": "Contact Support",
+          "icon": "envelope",
+          "url": "mailto:support@rubric.ai"
+        }
       ]
-    },
-    {
-      "group": "Working with Rubric AI",
-      "pages": [
-        "working/getting-started",
-        "working/onboarding",
-        "working/offboarding"
-      ]
-    },
-    {
-      "group": "Policies",
-      "pages": ["policies/overview"]
-    },
-    {
-      "group": "Support",
-      "pages": ["support/faq"]
     }
-  ],
+  },
   "footerSocials": {
     "website": "https://rubric.ai"
   }
