@@ -1,5 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
+  "theme": "mint",
   "name": "Rubric AI Talent Portal",
   "logo": {
     "dark": "/logo/dark.svg",
