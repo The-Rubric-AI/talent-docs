@@ -3,10 +3,9 @@
   "theme": "mint",
   "name": "Rubric AI Talent Portal",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/rubric-logo.png",
+    "light": "/logo/rubric-logo.png"
   },
-  "favicon": "/favicon.svg",
   "colors": {
     "primary": "#6d5ef6",
     "light": "#8b7ff7",
